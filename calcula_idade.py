@@ -18,3 +18,11 @@ if hoje.month < nascimento.month or (hoje.month == nascimento.month and hoje.day
 
 # Exibe a idade
 print(f"Tu tem {idade} anos.")
+
+# Exibe a autorização de retirar a CMH
+if idade >= 18:
+    print("pode tirar sua CNH")
+
+# Exibe a idade mínima para retirar a CMH
+if idade <= 17:
+    print("complete 18 anos para tirar a sua CNH")
